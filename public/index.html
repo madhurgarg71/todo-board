@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+ <div class="app-container">
+  <div class="add-task">
+    <input type="text" placeholder="Type a task and press enter to add task" />
+  </div>
+  
+  
+  <div class='header-buttons'>
+     <div class='undo'>
+      <button>Undo delete</button>
+    </div>
+    <div class='total-count'>
+      <button>Total: <span>0</span></button>
+    </div>
+  </div>
+  
+  <div class="tasks-board">
+    <div class="task-container to-do">
+      <div class="task-type">
+        <span class="name">To Do</span>
+        <span class="count">0</span>
+      </div>      
+      <div class="tasks-list">
+        <ul>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="task-container in-progress">
+      <div class="task-type">
+        <span class="name">In progress</span>
+        <span class="count">0</span>
+      </div>      
+      <div class="tasks-list">
+        <ul>
+          
+        </ul>
+      </div>
+    </div>
+    
+    <div class="task-container done">
+      <div class="task-type">
+        <span class="name">Done</span>
+        <span class="count">0</span>
+      </div>      
+      <div class="tasks-list">
+        <ul>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src='main.js'></script>
+</html>
